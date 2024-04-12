@@ -12,7 +12,7 @@ void main()
         }
         else
         {
-            printf("number is less than 5\n")
+            printf("number is less than 5\n");
         }
     }
     else
