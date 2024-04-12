@@ -3,12 +3,12 @@ void main()
 {
     int a;
     printf("Enter a=");
-    scanf("&d \n", &a);
-    if (a)
+    scanf("%d", &a);
+    if(a>20)
     {
-        printf("inside if block");
+        printf("inside if block\n");
     }
-    printf("outside if block");
+    printf("outside if block\n");
 
     
 }
