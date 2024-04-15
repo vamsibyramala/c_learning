@@ -14,6 +14,6 @@ void main()
     }
     else
     {
-        printf("the number is odd")
+        printf("the number is odd");
     }
 }
