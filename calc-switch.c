@@ -3,10 +3,10 @@ void main()
 {
     int a, b;
     char o;
-    printf("Enter first number:");
-    scanf("%d",&a);
     printf("enter the operator:");
     scanf("%c",&o);
+    printf("Enter first number:");
+    scanf("%d",&a);
     printf("Enter second number:");
     scanf("%d", &b);
     switch (o)
