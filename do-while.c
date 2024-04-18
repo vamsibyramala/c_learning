@@ -7,6 +7,7 @@ void main()
     do
     {
         printf("%d x %d = %d \n", a,i,a*i);
+        i++;
     } while (i<=10);
     
 }
