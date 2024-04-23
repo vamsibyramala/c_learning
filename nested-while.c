@@ -2,7 +2,7 @@
 void main()
 {
     int a, i = 1;
-    printf("Enter how many multiplication:\n");
+    printf("Enter how many multiplication:");
     scanf("%d",&a);
     while (i<=a)
     {
