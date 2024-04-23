@@ -3,10 +3,9 @@ void main()
 {
     int i,j;
     do
-    {
+    { j=1;
         do
         {
-        j=1;
         printf("*");
         j++;
         } while (j<=5);
