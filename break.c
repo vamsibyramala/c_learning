@@ -2,7 +2,7 @@
 void main()
 {
     int a, i, sum=0;
-    for (i = 0; i < = 5; i++)
+    for (i = 1; i <= 5; i++)
     {
         printf("Enter %d number:", i);
         scanf("%d", &a);
@@ -12,7 +12,7 @@ void main()
         }
         sum = sum + a;
     }
-    printf("sum = %d", sum);
+    printf("sum = %d \n", sum);
     
     
 }
