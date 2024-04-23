@@ -6,6 +6,10 @@ void main()
     {
         printf("Enter %d number:", i);
         scanf("%d", &a);
+        if(a<0)
+        {
+            break;
+        }
         sum = sum + a;
     }
     printf("sum = %d", sum);
